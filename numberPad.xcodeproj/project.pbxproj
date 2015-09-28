@@ -12,6 +12,7 @@
 		52E34F2E1BB8C51400EBCA8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E34F2C1BB8C51400EBCA8D /* Main.storyboard */; };
 		52E34F301BB8C51400EBCA8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E34F2F1BB8C51400EBCA8D /* Assets.xcassets */; };
 		52E34F331BB8C51400EBCA8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E34F311BB8C51400EBCA8D /* LaunchScreen.storyboard */; };
+		52E34F3D1BB9897900EBCA8D /* ButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E34F3C1BB9897900EBCA8D /* ButtonsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		52E34F2F1BB8C51400EBCA8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52E34F321BB8C51400EBCA8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52E34F341BB8C51400EBCA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E34F3C1BB9897900EBCA8D /* ButtonsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				52E34F281BB8C51400EBCA8D /* AppDelegate.swift */,
 				52E34F2A1BB8C51400EBCA8D /* ViewController.swift */,
 				52E34F2C1BB8C51400EBCA8D /* Main.storyboard */,
+				52E34F3C1BB9897900EBCA8D /* ButtonsViewController.swift */,
 				52E34F2F1BB8C51400EBCA8D /* Assets.xcassets */,
 				52E34F311BB8C51400EBCA8D /* LaunchScreen.storyboard */,
 				52E34F341BB8C51400EBCA8D /* Info.plist */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52E34F2B1BB8C51400EBCA8D /* ViewController.swift in Sources */,
+				52E34F3D1BB9897900EBCA8D /* ButtonsViewController.swift in Sources */,
 				52E34F291BB8C51400EBCA8D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,7 +254,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = numberPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = book.persistence.numberPad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnregner.numberPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -261,7 +265,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = numberPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = book.persistence.numberPad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnregner.numberPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
